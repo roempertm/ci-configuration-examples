@@ -22,13 +22,13 @@ end
 if dateFormat == "mm/dd/yyyy"
     d = datetime(mmddyy,"Format","MM/dd/uuuu");
 else
-    d = datetime(mmddyy,"Format","dd/MM/uuuu");
+    d = datetime(mmddyy,"Format","dd/MM/uuuu");    
 end
 
 % Initialize the days per month
 daysPerMonth = [ ...
     31;  % January
-    29;  % February
+    28;  % February    
     31;  % March
     30;  % April
     31;  % May
